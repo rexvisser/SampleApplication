@@ -25,7 +25,7 @@ namespace SampleApplication.ViewModels
     }
 
     /// <summary>
-    /// Command to execure from the user interface.
+    /// Command to execute from the user interface.
     /// </summary>
     /// <param name="commandName">The name of the command to execute.</param>
     /// <param name="target">The object to act on.</param>
