@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:SampleApplication"
         xmlns:cmd="clr-namespace:SampleApplication.Infrastructure"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="My application" Height="450" Width="800">
   <Window.CommandBindings>
     <CommandBinding Command="cmd:Commands.MainCommand" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed" />
   </Window.CommandBindings>
@@ -16,7 +16,7 @@
       <RowDefinition Height="*" />
       <RowDefinition Height="auto" />
     </Grid.RowDefinitions>
-    <TextBlock Grid.Row="0" Text="Main Window" FontSize="32" VerticalAlignment="Center" HorizontalAlignment="Center" />
+    <TextBlock Grid.Row="0" Text="First Window" FontSize="32" VerticalAlignment="Center" HorizontalAlignment="Center" />
     <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="5" HorizontalAlignment="Center">
     <Button Content="Button 1" FontSize="18" BorderBrush="Black" Width="130" Height="30" Margin="10"
             Command="cmd:Commands.MainCommand" CommandParameter="ShowMsg"/>
